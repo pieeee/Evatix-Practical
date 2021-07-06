@@ -1,0 +1,10 @@
+CREATE TABLE users(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    profession VARCHAR(255),
+    birthdate DATE NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    pasword VARCHAR(255)
+);
+
+ALTER TABLE users AUTO_INCREMENT=16145001;
